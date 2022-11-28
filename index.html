@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Weather Forecast</h1>
+    <div class="searchbar">
+        <input type="search" placeholder="search" class="searchfield"/>
+        <button type="submit" class="searchbutton"><img src="./images/search_FILL0_wght400_GRAD0_opsz48.png" id="searchicon"></button>
+    </div>
+
+    <section class="main">
+        <div id="maindisplay">
+            <h2 class="weather">Weather</h2>
+            <div class="curday">09/07 MON</div>
+            <div class="location">City</div>
+            <div class="curtemp">55°F</div>
+            <div class="min-max-temp">60° / 50°</div>
+            <img src = "http://openweathermap.org/img/wn/04n@2x.png" class="icon"/>
+        </div>
+        <div id="extrainfo">
+            <div class="condition">Condition:</div>
+            <div class="feelslike">Feels Like:</div>
+            <div class="humidity">Humidity:</div>
+            <div class="windspeed">Wind Speed:</div>
+            <div class="visibility">Visibility:</div>
+        </div>
+    </section>
+</body>
+</html>

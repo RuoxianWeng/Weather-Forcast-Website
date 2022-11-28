@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/weather.jpg);
+    background-size: cover;
+    
+    overflow: scroll;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.searchbar {
+    width: 450px;
+    height: 45px;
+    margin: 0 auto;
+    border: 1.5px solid rgb(99, 95, 95);
+    border-radius: 15px;
+    background-color: white;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+input[type="search"] {
+    float: left;
+    height: 100%;
+    width: 85%;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    color:rgb(104, 104, 123)
+}
+
+button {
+    width: 50px;
+    height: 100%;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#searchicon {
+    width: 100%;
+}
+
+.main {
+    width: 480px;
+    height: 260px;
+    margin: 80px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+#maindisplay {
+    height: 100%;
+    width: 45%;
+    display: inline-block;
+}
+
+#extrainfo {
+    height: 85%;
+    width: 40%;
+    float: right;
+    padding-top: 45px;
+    line-height: 40px;
+    }
+
+.weather {
+    font-size: 30px;
+    margin: 0;
+}
+
+.curday {
+    word-spacing: 10px;
+    padding: 20px 10px 0;
+}
+
+.location {
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.curtemp {
+    font-size: 25px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.min-max-temp {
+    font-size: 15px;
+    display: inline;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
